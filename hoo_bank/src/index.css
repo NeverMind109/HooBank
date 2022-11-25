@@ -16,7 +16,12 @@
 * {
   scroll-behavior: smooth;
 }
-
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
