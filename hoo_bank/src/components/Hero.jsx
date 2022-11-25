@@ -5,7 +5,7 @@ import GetStarted from './GetStarted'
 const Hero = () =>  (
   <section className={`flex flex-col ${styles.paddingY} md:flex-row`} id="home">
     <div className={`flex-1 ${styles.flexStart} flex-col px-6 xl:px-0 sm:px-16`}>
-      <div className="flex flex-row atems-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+      <div className="flex flex-row items-center py-[6px] px-2 bg-discount-gradient rounded-[10px] mb-2 md:px-4">
         <img className="w-[32px] h-[32px]" src={discount} alt="discount" />
         <p className={`${styles.paragraph} ml-2`}>
         <span className="text-white">20%</span> Discount For {" "}
@@ -13,7 +13,7 @@ const Hero = () =>  (
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-semibold text-[52px] leading-[75px] text-white ss:text-[72px] ss:leading-[100px]">
+        <h1 className="flex-1 font-semibold text-[45px] leading-[60px] text-white sm:text-[68px] sm:leading-[100px] ss:text-[50px] ss:leading-[75px]">
         The Next<br className="hidden sm:block"/> {" "}
         <span className="text-gradient">Generation</span> {" "}
         
@@ -22,7 +22,7 @@ const Hero = () =>  (
           <GetStarted />
         </div>
       </div>
-      <h2 className="font-semibold w-full text-[52px] leading-[75px] text-white mb-5 ss:text-[68px] ss:leading-[100px]">Payment Method.</h2>
+      <h2 className="font-semibold w-full text-[45px] leading-[60px] text-white mb-5 sm:text-[68px] sm:leading-[100px] ss:text-[50px] ss:leading-[75px]">Payment Method.</h2>
       <p className={`${styles.paragraph} max-w-[470px]`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
     </div>
 

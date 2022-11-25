@@ -3,7 +3,7 @@ import styles, { layout } from '../style'
 import Button from './Button'
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] feature-card ${index !== features.length - 1 ? "mb-6" : "mb-0"}`}>
+  <div className={`flex flex-row p-3 rounded-[20px] feature-card ${index !== features.length - 1 ? "mb-6" : "mb-0"} md:p-6`}>
     <div className={`${styles.flexCenter} w-[64px] h-[64px] bg-dimBlue rounded-full mr-5`}>
       <img className="w-[50%] h-[50%] object-contain" src={icon} alt="Icon" />
     </div>
